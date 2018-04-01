@@ -14,7 +14,10 @@ module.exports = (robot) ->
     res.send " > My favorites are apples and grapes."
 
   robot.respond /movie/gim, (res) ->
-    res.send " > My favorite movie is The Wizard of Oz"
+    res.send " > My favorite movie is KABALI"
 
   robot.respond /lunch/gim, (res) ->
+    res.send " > I want a peanut butter and jelly sandwich for lunch today."
+    
+    robot.respond /game/gim, (res) ->
     res.send " > I want a peanut butter and jelly sandwich for lunch today."
